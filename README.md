@@ -26,7 +26,7 @@ locations with great result.
 
 - Promises and closures are used to handle application flow and asynchronous $http calls
 
-- separated angular controllers for each major task the application completes
+- separated angular services for each major task the application completes
 
 - jade templating for the front end
 
