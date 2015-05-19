@@ -1,0 +1,32 @@
+extends layout
+block head
+
+	script(src='/javascripts/jquery.min.js')
+	script(src='http://cdn.datatables.net/1.10.6/js/jquery.dataTables.min.js')
+	script(src='/javascripts/angular.min.js')
+	script(src='/javascripts/angular-datatables.min.js')
+	script(src='/javascripts/leaflet.js')
+	script(src='/javascripts/angular-leaflet-directive.min.js')
+	script(src='/javascripts/index-client.js')
+	
+
+block content
+
+	div(ng-controller="Controller")
+		div
+			leaflet(defaults='defaults', markers='markers')
+
+		div#tablediv
+			table#datatable(class="display: row-border hover stripe ordering autoWidth order-column")
+				thead
+					tr
+						th Name
+						th City
+						th Type
+
+		div#zoomdiv
+			a(href="#") Center Map
+
+
+block scripts
+

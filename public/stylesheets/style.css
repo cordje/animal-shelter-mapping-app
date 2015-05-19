@@ -1,0 +1,71 @@
+body {
+  padding: 30px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px 0px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.angular-leaflet-map {
+    margin: 0px 0px;
+    width: 100%;
+    height: 645px;
+}
+
+.pushpinContent{
+    font-weight: normal;
+}
+
+.pushpinContent p{
+    font-weight: normal;
+    line-break: auto;
+    line-height: normal;
+    margin: 0px 0px !important;
+    padding: 3px;
+}
+
+#tablediv {
+  border: 2px solid black;
+  height:490px;
+  width: 30%;
+  position: absolute;
+  left: 42px;
+  top: 42px;
+  z-index: 10;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 3px 3px 3px #888888;
+}
+
+#datatable {
+  width: 100%;
+}
+
+#zoomdiv {
+  border: 2px solid black;
+  height: 8px;
+  width: 100px;
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  z-index: 10;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 3px 3px 3px #888888;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 8px;
+}
+
+#zoomdiv a {
+  text-decoration: none;
+  color: black;
+  font-family: verdana;
+  font-size: 1.15em;
+}
+
+#zoomdiv:hover {
+  background-color: #eee;
+}
