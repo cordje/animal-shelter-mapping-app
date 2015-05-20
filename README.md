@@ -1,6 +1,10 @@
 # animal-shelter-mapping-app
 MEAN stack mapping tool for local animal shelter
 
+DEMO (for privacy reasons, the client's customer data is not presented on the datatable)
+
+https://frozen-savannah-7715.herokuapp.com/
+
 This is a project I worked on with another local developer. The goal of the project was to create
 an application that would allow the board of a regional animal shelter to manage the shelters and
 donors in their network and display this information dynamically on a map. This mapping functionality 
