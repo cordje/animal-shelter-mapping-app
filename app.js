@@ -43,7 +43,7 @@ module.exports = app;
 // DEFINE MIDDLEWARE
 // =================================================================================
 
-// uncomment after placing your favicon in /public
+// uncomment after placing favicon in /public <-- need to do this
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
