@@ -1,4 +1,4 @@
-# animal-shelter-mapping-app
+# Animal Shelter Mapping Tool
 MEAN stack mapping tool for local animal shelter
 
 DEMO (for privacy reasons, the client's customer data is not presented on the datatable)
